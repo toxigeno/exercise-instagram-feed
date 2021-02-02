@@ -1,0 +1,69 @@
+body {
+    background-color: lightgray;
+    color: black;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: white;
+    padding: 25px;
+    text-align: center;
+}
+main {
+   
+    margin-top: 50px;
+}
+
+.bold {
+    font-weight: bold;
+}
+.photobox {
+    width: 500px;
+    margin: 20px auto;
+    background: white;
+}
+
+.photoboxheader {
+    display: flex;
+    padding: 15px;
+}
+
+.photoboxheader h3 {
+    flex: 3;
+    font-weight: bold;
+}
+.photoboxheader h5 {
+    color: lightgray;
+}
+
+.photobox-img01, .photobox-img02, .photobox-img03{
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.photobox-img01{
+    background-image: url(https://images.pexels.com/photos/4681107/pexels-photo-4681107.jpeg);
+}
+
+.photobox-img02{
+    background-image: url(https://images.pexels.com/photos/4668425/pexels-photo-4668425.jpeg);
+}
+.photobox-img03{
+    background-image: url(https://images.pexels.com/photos/262967/pexels-photo-262967.jpeg);
+}
+.photobox img {
+    width: 100%;
+    border: 1px solid red;
+}
+
+.photobox p {
+    padding: 10px 15px;
+}
